@@ -1,0 +1,10 @@
+*.meta
+*.csproj
+*.sln
+*.DS_Store
+*.vs
+Library
+Logs
+obj
+Packages
+Temp
