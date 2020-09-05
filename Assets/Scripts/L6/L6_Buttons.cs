@@ -8,14 +8,14 @@ public class L6_Buttons : MonoBehaviour
 {
     public Button button;
 
-    //int clickCount;
+    int clickCount;
 
     // Start is called before the first frame update
     void Start()
     {
         //button.GetComponent<Text>().text = "Here!";
 
-        //button.GetComponentInChildren<Text>().text = "Here!";
+        button.GetComponentInChildren<Text>().text = "Here!";
 
         button.onClick.AddListener(Click);
     }

@@ -13,7 +13,7 @@ public class L7_Rigidbody : MonoBehaviour
     {
         rigidbody = GetComponent<Rigidbody2D>();
 
-        //button.onClick.AddListener(Click);
+        button.onClick.AddListener(Click);
     }
 
     // Update is called once per frame

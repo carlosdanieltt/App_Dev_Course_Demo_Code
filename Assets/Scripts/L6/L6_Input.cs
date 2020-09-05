@@ -14,8 +14,8 @@ public class L6_Input : MonoBehaviour
 
     void FixedUpdate()
     {
-        //Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
-        //sprite.transform.Translate(direction);
+        Vector3 direction = new Vector3(Input.GetAxis("Horizontal"), Input.GetAxis("Vertical"), 0);
+        sprite.transform.Translate(direction);
 
         //sprite.transform.Translate(direction, Space.World);
 

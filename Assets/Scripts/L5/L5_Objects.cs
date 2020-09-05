@@ -11,6 +11,8 @@ public class L5_Objects : MonoBehaviour
     void Start()
     {
         offset = new Vector2(Random.Range(-1.0f, 1.0f), Random.Range(-1.0f, 1.0f));
+
+        print(otherSprite.name);
     }
 
     void FixedUpdate()

@@ -11,7 +11,7 @@ public class L4_Transform : MonoBehaviour
         print("Object x scale: " + transform.localScale.x);
         print("Object x rotation: " + transform.eulerAngles.x);
 
-        //transform.position = new Vector3(2, 2, 0);
+        transform.position = new Vector3(2, 2, 0);
 
         //transform.position = new Vector2(2, 2);
 
